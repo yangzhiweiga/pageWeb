@@ -13,9 +13,6 @@ class Main extends Web
      */
     function index()
     {
-        $this->data ['action'] = __FUNCTION__;
-        $this->data ['version'] = Delegate::getVersion();
-
         $this->display($this->data);
     }
 }
