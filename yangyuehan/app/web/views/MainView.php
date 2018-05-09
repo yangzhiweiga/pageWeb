@@ -11,6 +11,11 @@ namespace app\web\views;
  */
 class MainView extends WebView
 {
+    function __construct()
+    {
+        parent::__construct();
+    }
+
     /**
      * 默认视图控制器
      *
@@ -18,6 +23,7 @@ class MainView extends WebView
      */
     function index($data = array())
     {
+        $this->data['title']='杨悦涵个人主页';
         $this->renderTpl('main/index', $data);
     }
 }

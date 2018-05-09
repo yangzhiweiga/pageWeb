@@ -8,5 +8,8 @@ return array(
         'panel' =>  'fa fa-dashboard',
         'security'  =>  'fa fa-shield',
         'acl'   =>  'fa fa-wrench',
+        'author' => 'fa fa-glass',
+        'book' => 'fa fa-facebook-official',
+        'user' => 'fa fa-user'
     ),
 );

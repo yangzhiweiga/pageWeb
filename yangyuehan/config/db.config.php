@@ -23,7 +23,7 @@ $redis_link = array(
 
 #默认数据库配置
 $db = $mysql_link;
-$db['name'] = 'crossphp';
+$db['name'] = 'yyh';
 
 
 // 缓存

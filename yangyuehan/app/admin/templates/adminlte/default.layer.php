@@ -27,7 +27,7 @@
 <!-- skin-blue|black|purple|green|red|yellow|blue-light|black-light|purple-light|green-light|red-light|yellow-light  -->
 <body class="hold-transition skin-black sidebar-mini">
 <div class="wrapper">
-    <header class="main-header">
+    <header class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
         <a href="" class="logo">
             <span class="logo-mini">
                 <img src="<?php echo $this->res("adminlte/2.3.5/dist/img/logo.png") ?>" alt="cross php framework"
@@ -42,11 +42,10 @@
         <nav class="navbar navbar-static-top" role="navigation">
             <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+<!--                <span class="icon-bar"></span>-->
+<!--                <span class="icon-bar"></span>-->
+<!--                <span class="icon-bar"></span>-->
             </a>
-
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
                     <li>
