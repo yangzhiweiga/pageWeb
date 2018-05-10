@@ -16,5 +16,8 @@ use Cross\MVC\View;
  */
 class WebView extends View
 {
-
+    function __construct()
+    {
+        parent::__construct();
+    }
 }
