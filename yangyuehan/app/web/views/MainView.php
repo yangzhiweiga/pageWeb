@@ -18,6 +18,7 @@ class MainView extends WebView
      */
     function index($data = array())
     {
+        $this->data['title']='杨悦涵个人主页';
         $this->renderTpl('main/index', $data);
     }
 }
