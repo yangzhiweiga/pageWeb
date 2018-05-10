@@ -17,13 +17,35 @@
     <script src="<?= $this->res('js/skel-layers.min.js') ?>"></script>
     <script src="<?= $this->res('js/init.js') ?>"></script>
     <link rel="stylesheet" href="<?= $this->res('css/skel.css') ?>"/>
-    <link rel="stylesheet" href="<?= $this->res('css/style.css') ?>"/>
+    <link rel="stylesheet" href="<?= $this->res('css/style.css').'?=t'.time() ?>"/>
     <link rel="stylesheet" href="<?= $this->res('css/style-noscript.css') ?>"/>
 
-    <link rel="stylesheet" href="<?= $this->res('css/ie/v8.css') ?>"/>
-    <link rel="stylesheet" href="<?= $this->res('css/ie/v9.css') ?>"/>
+    <link rel="stylesheet" href="<?= $this->res('css/ie/v8.css').'?=t'.time() ?>"/>
+    <link rel="stylesheet" href="<?= $this->res('css/ie/v9.css').'?=t'.time() ?>"/>
 </head>
 <body class="index loading">
+<!-- Header -->
+<header id="header" class="alt">
+    <h1 id="logo"><a href="index.tpl.php">悦涵 <span>成长时光</span></a></h1>
+    <nav id="nav">
+        <ul>
+            <?php foreach($this->data['nav_list'] as $nav):?>
+            <?php if(empty($nav['pid'])):?>
+                    <li class="current"><a href="<?=$nav['url'];?>"><?=$nav['name'];?></a></li>
+                <?php else:?>
+                                <li class="submenu">
+                                    <a href="<?=$nav['url'];?>"><?=$nav['name'];?></a>
+                                    <ul>
+                                        <?php foreach($nav['pid'] as $n):?>
+                                        <li><a href="<?=$n['url'];?>"><?=$n['name'];?></a></li>
+                                        <?php endforeach;?>
+                                    </ul>
+                                </li>
+                <?php endif;?>
+            <?php endforeach;?>
+        </ul>
+    </nav>
+</header>
 <?php echo empty($content) ? "" : $content ?>
 <!-- Footer -->
 <footer id="footer">
