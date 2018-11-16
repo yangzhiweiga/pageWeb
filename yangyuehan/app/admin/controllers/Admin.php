@@ -73,7 +73,7 @@ abstract class Admin extends Controller
             /**
              * 设置view导航数据
              */
-            $this->view->setNavMenu($nav_menu_data);
+            $this->setNavMenu($nav_menu_data);
             $all_menu = $this->ACL->getNavChildMenu($nav_menu_data);
 
             $child_menu = array();
@@ -81,8 +81,8 @@ abstract class Admin extends Controller
                 $child_menu = $all_menu[$controller]['child_menu'];
             }
 
-            $this->view->setMenu($child_menu);
-            $this->view->setAllMenu($all_menu, $icon_config);
+            $this->setMenu($child_menu);
+            $this->setAllMenu($all_menu, $icon_config);
         } else {
             /**
              * 所属角色
