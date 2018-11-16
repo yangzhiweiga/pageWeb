@@ -1,0 +1,408 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACL	.\admin\controllers\Acl.php	/^        $this->ACL = new AclModule;$/;"	v
+ACL	.\admin\controllers\Acl.php	/^    protected $ACL;$/;"	v
+ACL	.\admin\controllers\Admin.php	/^        $this->ACL = new AclModule();$/;"	v
+ACL	.\admin\controllers\Admin.php	/^    protected $ACL;$/;"	v
+ADMIN	.\admin\controllers\Admin.php	/^        $this->ADMIN = new AdminModule();$/;"	v
+ADMIN	.\admin\controllers\Admin.php	/^    protected $ADMIN;$/;"	v
+ADMIN	.\admin\controllers\Main.php	/^        $this->ADMIN = new AdminModule();$/;"	v
+ADMIN	.\admin\controllers\Main.php	/^    protected $ADMIN;$/;"	v
+Acl	.\admin\controllers\Acl.php	/^class Acl extends Admin$/;"	c
+AclView	.\admin\views\AclView.php	/^class AclView extends AdminView$/;"	c
+Admin	.\admin\controllers\Admin.php	/^abstract class Admin extends Controller$/;"	c
+AdminView	.\admin\views\AdminView.php	/^class AdminView extends View$/;"	c
+Api	.\api\controllers\Api.php	/^abstract class Api extends Controller$/;"	c
+ApiView	.\api\views\ApiView.php	/^class ApiView extends View$/;"	c
+Cli	.\cli\controllers\Cli.php	/^abstract class Cli extends Controller$/;"	c
+GenDoc	.\cli\controllers\GenDoc.php	/^class GenDoc extends Cli$/;"	c
+GenDocView	.\cli\views\GenDocView.php	/^class GenDocView extends View$/;"	c
+GuestBook	.\guestbook\controllers\Main.php	/^    	$GuestBook = new GuestBookModule();$/;"	v
+Main	.\admin\controllers\Main.php	/^class Main extends Controller$/;"	c
+Main	.\api\controllers\Main.php	/^class Main extends Api$/;"	c
+Main	.\cli\controllers\Main.php	/^class Main extends Cli$/;"	c
+Main	.\guestbook\controllers\Main.php	/^class Main extends Controller$/;"	c
+Main	.\web\controllers\Main.php	/^class Main extends Web$/;"	c
+MainView	.\admin\views\MainView.php	/^class MainView extends AdminView$/;"	c
+MainView	.\cli\views\MainView.php	/^class MainView extends View$/;"	c
+MainView	.\guestbook\views\MainView.php	/^class MainView extends View$/;"	c
+MainView	.\web\views\MainView.php	/^class MainView extends WebView$/;"	c
+Panel	.\admin\controllers\Panel.php	/^class Panel extends Admin$/;"	c
+PanelView	.\admin\views\PanelView.php	/^class PanelView extends AdminView$/;"	c
+SEC	.\admin\controllers\Main.php	/^        $this->SEC = new SecurityModule();$/;"	v
+SEC	.\admin\controllers\Main.php	/^    protected $SEC;$/;"	v
+SEC	.\admin\controllers\Security.php	/^        $this->SEC = new SecurityModule;$/;"	v
+SEC	.\admin\controllers\Security.php	/^    private $SEC;$/;"	v
+Security	.\admin\controllers\Security.php	/^class Security extends Admin$/;"	c
+SecurityView	.\admin\views\SecurityView.php	/^class SecurityView extends AdminView$/;"	c
+Web	.\web\controllers\Web.php	/^abstract class Web extends Controller$/;"	c
+WebView	.\web\views\WebView.php	/^class WebView extends View$/;"	c
+_SESSION	.\admin\controllers\Main.php	/^        $_SESSION = array();$/;"	v
+__construct	.\admin\controllers\Acl.php	/^    function __construct()$/;"	f
+__construct	.\admin\controllers\Admin.php	/^    function __construct()$/;"	f
+__construct	.\admin\controllers\Main.php	/^    function __construct()$/;"	f
+__construct	.\admin\controllers\Security.php	/^    function __construct()$/;"	f
+__construct	.\admin\views\MainView.php	/^    function __construct() {$/;"	f
+__construct	.\api\controllers\Api.php	/^    function __construct()$/;"	f
+__construct	.\cli\controllers\Cli.php	/^    function __construct()$/;"	f
+a	.\admin\controllers\Acl.php	/^            $a = $_POST['a'];$/;"	v
+accept_action	.\admin\controllers\Admin.php	/^            $accept_action = &$all_accept_action[$controller];$/;"	v
+accept_behavior	.\admin\controllers\Admin.php	/^            $accept_behavior = array_combine($accept_behavior, array_pad(array(), count($accept_behavior), true));$/;"	v
+accept_behavior	.\admin\controllers\Admin.php	/^            $accept_behavior = explode(',', $role_info ['behavior']);$/;"	v
+action	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                        $action = $this->link("acl:del", array('id' => $set['id'], 'e' => $menu['id']));$/;"	v
+action	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                    $action = '';$/;"	v
+action	.\cli\templates\default\segment\api\case.tpl.php	/^                        foreach($action_annotate as $action => $d) {$/;"	v
+action	.\cli\templates\default\segment\api\main.tpl.php	/^            foreach($action_annotate as $action => $d) {$/;"	v
+action	.\cli\templates\default\segment\api\nav.tpl.php	/^            foreach($action_annotate as $action => $d) {$/;"	v
+action	.\cli\templates\default\segment\api\test_form.tpl.php	/^$action = '\/\/' . $api_host . $apiInfo['action'];$/;"	v
+actionAnnotate	.\cli\controllers\GenDoc.php	/^            $actionAnnotate = array();$/;"	v
+action_annotate	.\cli\templates\default\segment\api\case.tpl.php	/^$action_annotate = &$data['action_annotate'];$/;"	v
+action_annotate	.\cli\templates\default\segment\api\main.tpl.php	/^$action_annotate = &$data['action_annotate'];$/;"	v
+action_annotate	.\cli\templates\default\segment\api\nav.tpl.php	/^$action_annotate = &$data['action_annotate'];$/;"	v
+action_menu_name	.\admin\templates\adminlte\default.layer.php	/^                    $action_menu_name = $child_menu_name_map[$controller][$this->action];$/;"	v
+action_menu_name	.\admin\templates\adminlte\default.layer.php	/^                $action_menu_name = '';$/;"	v
+addRole	.\admin\controllers\Acl.php	/^    function addRole()$/;"	f
+addRole	.\admin\views\AclView.php	/^    function addRole($data)$/;"	f
+all_accept_action	.\admin\controllers\Admin.php	/^            $all_accept_action = array();$/;"	v
+all_menu	.\admin\controllers\Admin.php	/^            $all_menu = $this->ACL->getNavChildMenu($nav_menu_data);$/;"	v
+all_menu	.\admin\views\AdminView.php	/^        $this->all_menu = $menu;$/;"	v
+all_menu	.\admin\views\AdminView.php	/^    private $all_menu;$/;"	v
+allow_image_type	.\api\controllers\Api.php	/^        $allow_image_type = array('jpeg' => 1, 'jpg' => 1, 'png' => 1);$/;"	v
+allow_menu	.\admin\controllers\Admin.php	/^            $allow_menu = array();$/;"	v
+annotate	.\cli\controllers\GenDoc.php	/^                        $annotate = Annotate::getInstance($this->delegate)->parse($methodRc->getDocComment());$/;"	v
+annotate	.\cli\controllers\GenDoc.php	/^        $annotate = $this->scanSource($source);$/;"	v
+annotate_api	.\api\controllers\Api.php	/^        $annotate_api = &$this->action_annotate['api'];$/;"	v
+annotate_config	.\cli\controllers\GenDoc.php	/^        $annotate_config = array();$/;"	v
+annotate_data	.\cli\views\GenDocView.php	/^        $annotate_data = $data['annotate']['data'];$/;"	v
+annotate_request	.\api\controllers\Api.php	/^        $annotate_request = &$this->action_annotate['request'];$/;"	v
+api	.\cli\templates\default\segment\api\child_menu.tpl.php	/^$api = &$data['api'];$/;"	v
+api	.\cli\templates\default\segment\api\test_form.tpl.php	/^$api = &$data['api'];$/;"	v
+apiActionList	.\cli\templates\default\segment\api_layer.tpl.php	/^    function apiActionList(action) {$/;"	f
+apiClassList	.\cli\templates\default\segment\api_layer.tpl.php	/^    function apiClassList(className) {$/;"	f
+apiInfo	.\cli\templates\default\segment\api\child_menu.tpl.php	/^$apiInfo = $formFieldsArray = array();$/;"	v
+apiInfo	.\cli\templates\default\segment\api\test_form.tpl.php	/^$apiInfo = $formFieldsArray = array();$/;"	v
+api_host	.\cli\controllers\GenDoc.php	/^            $api_host = &$this->params['apiHost'];$/;"	v
+api_host	.\cli\controllers\GenDoc.php	/^            $api_host = trim($server_ip);$/;"	v
+api_host	.\cli\templates\default\segment\api\test_form.tpl.php	/^$api_host = &$this->data['api_host'];$/;"	v
+api_title	.\cli\templates\default\segment\api\case.tpl.php	/^$api_title = !empty($info['desc'])?$info['desc']:$info['class'];$/;"	v
+api_title	.\cli\templates\default\segment\api\main.tpl.php	/^$api_title = !empty($info['desc'])?$info['desc']:$info['class'];$/;"	v
+api_title	.\cli\templates\default\segment\api\nav.tpl.php	/^$api_title = !empty($info['desc'])?$info['desc']:$info['class'];$/;"	v
+app	.\cli\controllers\GenDoc.php	/^            $app = $i['app'];$/;"	v
+attr	.\admin\templates\adminlte\page\default.tpl.php	/^        $attr = array('class' => 'active');$/;"	v
+attr	.\admin\templates\adminlte\page\default.tpl.php	/^        $attr = array();$/;"	v
+bind	.\admin\controllers\Security.php	/^    function bind()$/;"	f
+changePassword	.\admin\controllers\Security.php	/^    function changePassword()$/;"	f
+changePassword	.\admin\views\SecurityView.php	/^    function changePassword($data)$/;"	f
+channel	.\api\controllers\Api.php	/^        $this->channel = $this->getInputData('channel');$/;"	v
+channel	.\api\controllers\Api.php	/^    protected $channel;$/;"	v
+checkUploadImage	.\api\controllers\Api.php	/^    private function checkUploadImage($upload_file_name, $tmp_file, $size = 3000000)$/;"	f
+check_ret	.\admin\controllers\Main.php	/^                $check_ret = $this->ADMIN->checkAdmin($_POST['user'], $_POST['pwd'], $_POST['v'], $_POST['vv']);$/;"	v
+child_icon_name	.\admin\templates\adminlte\default.layer.php	/^                            $child_icon_name = !empty($mu['icon']) ? $mu['icon'] : 'fa fa-circle-o';$/;"	v
+child_menu	.\admin\controllers\Admin.php	/^                    $child_menu = $this->ACL->getMenuByCondition(array('pid' => $nav_id));$/;"	v
+child_menu	.\admin\controllers\Admin.php	/^                $child_menu = $all_menu[$controller]['child_menu'];$/;"	v
+child_menu	.\admin\controllers\Admin.php	/^            $child_menu = array();$/;"	v
+child_menu	.\admin\templates\adminlte\default.layer.php	/^                function li_menu($class, $content, $child_menu = '')$/;"	v
+child_menu_icon_config	.\admin\views\AdminView.php	/^                $child_menu_icon_config = $menu_icon_config[1];$/;"	v
+child_menu_icon_config	.\admin\views\AdminView.php	/^                $child_menu_icon_config = array();$/;"	v
+child_menu_name_map	.\admin\templates\adminlte\default.layer.php	/^                $child_menu_name_map = array();$/;"	v
+child_node_num	.\admin\templates\adminlte\default.layer.php	/^                    $child_node_num = count($m['child_menu']);$/;"	v
+child_ul_menu	.\admin\templates\adminlte\default.layer.php	/^                        $child_ul_menu = '';$/;"	v
+child_ul_menu	.\admin\templates\adminlte\default.layer.php	/^                        $child_ul_menu = sprintf('<ul class="treeview-menu">%s<\/ul>', $li_menu);$/;"	v
+ck	.\admin\controllers\Admin.php	/^                        foreach ($child_menu as $ck => $m) {$/;"	v
+class	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                        $class = 'confirm-href-flag';$/;"	v
+class	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                    $class = 'pop-alert-flag';$/;"	v
+class	.\cli\templates\default\segment\api\case.tpl.php	/^$class = $info['class'];$/;"	v
+class	.\cli\templates\default\segment\api\main.tpl.php	/^$class = $info['class'];$/;"	v
+class	.\cli\templates\default\segment\api\nav.tpl.php	/^$class = $info['class'];$/;"	v
+classAnnotate	.\cli\controllers\GenDoc.php	/^            $classAnnotate = Annotate::getInstance($this->delegate)->parse($rcAnnotate);$/;"	v
+className	.\cli\controllers\GenDoc.php	/^            $className = array_shift($className);$/;"	v
+className	.\cli\controllers\GenDoc.php	/^            $className = explode('.', $i['file_name']);$/;"	v
+classNameSpace	.\cli\controllers\GenDoc.php	/^            $classNameSpace = "app\\\\{$app}\\\\controllers\\\\{$className}";$/;"	v
+class_annotate	.\cli\templates\default\segment\api\case.tpl.php	/^    $class_annotate = array_merge($class_annotate, $parent_annotate);$/;"	v
+class_annotate	.\cli\templates\default\segment\api\case.tpl.php	/^$class_annotate = &$data['class_annotate'];$/;"	v
+class_annotate	.\cli\templates\default\segment\api\main.tpl.php	/^    $class_annotate = array_merge($class_annotate, $parent_annotate);$/;"	v
+class_annotate	.\cli\templates\default\segment\api\main.tpl.php	/^$class_annotate = &$data['class_annotate'];$/;"	v
+class_annotate	.\cli\templates\default\segment\api\nav.tpl.php	/^    $class_annotate = array_merge($class_annotate, $parent_annotate);$/;"	v
+class_annotate	.\cli\templates\default\segment\api\nav.tpl.php	/^$class_annotate = &$data['class_annotate'];$/;"	v
+code_config	.\admin\controllers\Admin.php	/^        $code_config = $this->parseGetFile('config::notice.config.php');$/;"	v
+code_text	.\admin\views\AdminView.php	/^        $code_text = $this->parseGetFile('config::notice.config.php');$/;"	v
+command	.\cli\controllers\Cli.php	/^                $this->command = trim($p);$/;"	v
+command	.\cli\controllers\Cli.php	/^    protected $command;$/;"	v
+condition	.\guestbook\controllers\Main.php	/^            $condition = array();$/;"	v
+content	.\cli\views\GenDocView.php	/^        $content = $this->obRenderTpl('segment\/api_layer', $layer_data);$/;"	v
+controller	.\admin\controllers\Admin.php	/^        $controller = lcfirst($this->controller);$/;"	v
+controller	.\admin\templates\adminlte\default.layer.php	/^                $controller = lcfirst($this->controller);$/;"	v
+controller	.\admin\views\AdminView.php	/^            $controller = "{$current_controller}:{$this->action}";$/;"	v
+controller	.\admin\views\AdminView.php	/^            $controller = $data['link'];$/;"	v
+controller	.\admin\views\AdminView.php	/^            $controller = $data['link'][0];$/;"	v
+controllerList	.\cli\controllers\GenDoc.php	/^        $controllerList = glob("{$source}\/*.*");$/;"	v
+controllerName	.\cli\controllers\GenDoc.php	/^            $controllerName = lcfirst($className);$/;"	v
+controller_menu_name	.\admin\templates\adminlte\default.layer.php	/^                        $controller_menu_name = $m['name'];$/;"	v
+controller_menu_name	.\admin\templates\adminlte\default.layer.php	/^                $controller_menu_name = '';$/;"	v
+create	.\admin\controllers\Security.php	/^    function create()$/;"	f
+current_controller	.\admin\views\AdminView.php	/^            $current_controller = lcfirst($this->controller);$/;"	v
+customMenuNamePrefix	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^$customMenuNamePrefix = sprintf('customMenu[%s][0]', $menu['id']);$/;"	v
+d	.\cli\templates\default\segment\api\test_form.tpl.php	/^        $d = array();$/;"	v
+data	.\admin\controllers\Admin.php	/^    protected $data = array('status' => 1);$/;"	v
+data	.\admin\controllers\Security.php	/^        $data = $this->SEC->bindCard($this->u);$/;"	v
+data	.\admin\controllers\Security.php	/^        $data = $this->SEC->createTable();$/;"	v
+data	.\admin\controllers\Security.php	/^        $data = $this->SEC->makeSecurityCardImage($this->u);$/;"	v
+data	.\api\controllers\Api.php	/^    protected $data = array('status' => 1, 'message' => 'ok', 'data' => array());$/;"	v
+data	.\guestbook\controllers\Main.php	/^    		$data = array();$/;"	v
+data	.\web\controllers\Web.php	/^    protected $data = array('status' => 0);$/;"	v
+data_container	.\api\controllers\Api.php	/^                            $data_container = $this->data_container;$/;"	v
+data_container	.\api\controllers\Api.php	/^                            $data_container = $this->getDataContainer($input_type);$/;"	v
+data_container	.\api\controllers\Api.php	/^                $data_container = &$_FILES;$/;"	v
+data_container	.\api\controllers\Api.php	/^                $data_container = &$_GET;$/;"	v
+data_container	.\api\controllers\Api.php	/^                $data_container = &$_POST;$/;"	v
+data_container	.\api\controllers\Api.php	/^        $this->data_container = $this->getDataContainer($request_type);$/;"	v
+data_container	.\api\controllers\Api.php	/^    private $data_container = array();$/;"	v
+del	.\admin\controllers\Acl.php	/^    function del()$/;"	f
+delRole	.\admin\controllers\Acl.php	/^    function delRole()$/;"	f
+delUser	.\admin\controllers\Acl.php	/^    function delUser()$/;"	f
+dieJson	.\admin\controllers\Admin.php	/^    protected function dieJson($data)$/;"	f
+display	.\api\controllers\Api.php	/^    function display($data = null, $method = null, $http_response_status = 200)$/;"	f
+doc_info	.\cli\controllers\GenDoc.php	/^                    $doc_info = $parentClassAnnotate['doc_info'];$/;"	v
+doc_info	.\cli\controllers\GenDoc.php	/^                $doc_info = $classAnnotate['doc_info'];$/;"	v
+doc_info	.\cli\controllers\GenDoc.php	/^        $doc_info = array();$/;"	v
+doc_info	.\cli\views\GenDocView.php	/^        $doc_info = include("annotate:\/\/" . $data['annotate']['doc_info']);$/;"	v
+editMenu	.\admin\controllers\Acl.php	/^    function editMenu()$/;"	f
+editMenu	.\admin\views\AclView.php	/^    function editMenu($data)$/;"	f
+editRole	.\admin\controllers\Acl.php	/^    function editRole()$/;"	f
+editRole	.\admin\views\AclView.php	/^    function editRole($data)$/;"	f
+endFlushMessage	.\cli\controllers\Cli.php	/^    function endFlushMessage($message)$/;"	f
+expire_time	.\cli\templates\default\segment\api\action.tpl.php	/^    $expire_time = time() + 86400000;$/;"	v
+ext	.\api\controllers\Api.php	/^                    $ext = $this->checkUploadImage($upload_name, $upload_tmp_name);$/;"	v
+ext	.\api\controllers\Api.php	/^                    $ext = array();$/;"	v
+f	.\cli\controllers\GenDoc.php	/^            $f = explode('.', $i['file_name']);$/;"	v
+field_name	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                        $field_name = $field['name'];$/;"	v
+file_info	.\cli\controllers\GenDoc.php	/^            $file_info = explode('\/', $file);$/;"	v
+filterData	.\api\controllers\Api.php	/^    protected function filterData($key, $value)$/;"	f
+filter_data	.\api\controllers\Api.php	/^    function getInputData($key, $filter_data = true)$/;"	v
+filter_name	.\api\controllers\Api.php	/^    function getFileData($key, $filter_name = 'images', &$is_multi = false)$/;"	v
+flushMessage	.\cli\controllers\Cli.php	/^    function flushMessage($message)$/;"	f
+force_params	.\api\controllers\Api.php	/^    private $force_params = array();$/;"	v
+formFields	.\cli\templates\default\segment\api\test_form.tpl.php	/^$formFields = &$data['request'];$/;"	v
+fs	.\cli\templates\default\segment\api\test_form.tpl.php	/^    $fs = explode(',', $formFields);$/;"	v
+genApiPage	.\cli\controllers\GenDoc.php	/^    private function genApiPage(array $annotate, $output_dir, $api_host)$/;"	f
+getAllMenu	.\admin\views\AdminView.php	/^    function getAllMenu()$/;"	f
+getDataContainer	.\api\controllers\Api.php	/^    private function getDataContainer($request_type)$/;"	f
+getFileData	.\api\controllers\Api.php	/^    function getFileData($key, $filter_name = 'images', &$is_multi = false)$/;"	f
+getInputData	.\api\controllers\Api.php	/^    function getInputData($key, $filter_data = true)$/;"	f
+getMenu	.\admin\views\AdminView.php	/^    function getMenu()$/;"	f
+getNavMenu	.\admin\views\AdminView.php	/^    function getNavMenu()$/;"	f
+getStatus	.\admin\controllers\Admin.php	/^    protected function getStatus($code)$/;"	f
+getStatusMessage	.\admin\controllers\Admin.php	/^    protected function getStatusMessage($code)$/;"	f
+getStatusMessage	.\api\controllers\Api.php	/^    private function getStatusMessage($status)$/;"	f
+getTitleBread	.\admin\views\AdminView.php	/^    function getTitleBread()$/;"	f
+guest	.\guestbook\controllers\Main.php	/^            $guest = $GuestBook->find($condition, $page, $order);$/;"	v
+head	.\cli\views\GenDocView.php	/^        $head = $this->obRenderTpl('segment\/api\/title', $doc_info);$/;"	v
+host	.\cli\controllers\GenDoc.php	/^                    $host = gethostname();$/;"	v
+href	.\admin\templates\adminlte\page\default.tpl.php	/^        $href = $this->url($data['controller'], $data['params']) . $data['anchor'];$/;"	v
+href	.\admin\templates\adminlte\page\default.tpl.php	/^        $href = 'javascript:void(0)';$/;"	v
+i	.\cli\controllers\Cli.php	/^            if ((false === strpos($p, '=')) && $i == 0) {$/;"	v
+i	.\cli\controllers\Cli.php	/^        $i = 0;$/;"	v
+icon	.\admin\controllers\Admin.php	/^        $icon = $this->parseGetFile('config::menu_icon.config.php');$/;"	v
+icon	.\admin\views\AdminView.php	/^                $icon = $menu_icon_config;$/;"	v
+icon	.\admin\views\AdminView.php	/^                $icon = $menu_icon_config[0];$/;"	v
+icon_config	.\admin\controllers\Admin.php	/^            $icon_config = $icon[$tpl_dir_name];$/;"	v
+icon_config	.\admin\controllers\Admin.php	/^        $icon_config = array();$/;"	v
+icon_name	.\admin\templates\adminlte\default.layer.php	/^                    $icon_name = !empty($m['icon']) ? $m['icon'] : 'fa fa-circle-o';$/;"	v
+id	.\admin\controllers\Acl.php	/^        $id = (int)$this->params['id'];$/;"	v
+id	.\admin\views\AdminView.php	/^            foreach ($m['child_menu'] as $id => &$mc) {$/;"	v
+image_ext	.\api\controllers\Api.php	/^            $image_ext = strtolower(image_type_to_extension($image_info[2]));$/;"	v
+image_info	.\api\controllers\Api.php	/^        $image_info = @getimagesize($tmp_file);$/;"	v
+image_size	.\api\controllers\Api.php	/^            $image_size = filesize($tmp_file);$/;"	v
+image_type	.\api\controllers\Api.php	/^            $image_type = substr($image_ext, 1);$/;"	v
+index	.\admin\controllers\Acl.php	/^    function index()$/;"	f
+index	.\admin\controllers\Panel.php	/^    function index()$/;"	f
+index	.\admin\controllers\Security.php	/^    function index()$/;"	f
+index	.\admin\views\AclView.php	/^    function index($data)$/;"	f
+index	.\admin\views\PanelView.php	/^    function index($data = array())$/;"	f
+index	.\api\controllers\Api.php	/^    abstract function index();$/;"	f
+index	.\api\controllers\Main.php	/^    function index()$/;"	f
+index	.\cli\controllers\GenDoc.php	/^    function index()$/;"	f
+index	.\cli\controllers\Main.php	/^    function index()$/;"	f
+index	.\cli\views\GenDocView.php	/^    function index($data = array())$/;"	f
+index	.\guestbook\controllers\Main.php	/^    public function index()$/;"	f
+index	.\guestbook\views\MainView.php	/^    function index($data = array())$/;"	f
+index	.\web\controllers\Main.php	/^    function index()$/;"	f
+index	.\web\controllers\Web.php	/^    abstract function index();$/;"	f
+index	.\web\views\MainView.php	/^    function index($data = array())$/;"	f
+info	.\cli\templates\default\segment\api\case.tpl.php	/^$info = &$data['info'];$/;"	v
+info	.\cli\templates\default\segment\api\main.tpl.php	/^$info = &$data['info'];$/;"	v
+info	.\cli\templates\default\segment\api\nav.tpl.php	/^$info = &$data['info'];$/;"	v
+ingotAction	.\cli\controllers\GenDoc.php	/^        $ingotAction = array($/;"	v
+ingotController	.\cli\controllers\GenDoc.php	/^        $ingotController = array($/;"	v
+input	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                            $input = $this->htmlTag($input_ele_type, $input_tag_data);$/;"	v
+input	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                            $input = $this->select($selectOptions, null, $input_tag_data);$/;"	v
+input_addition_html	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                        $input_addition_html = '&nbsp;<span style="form-control-static">*<\/span>';$/;"	v
+input_addition_html	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                    $input_addition_html = '';$/;"	v
+input_data_container	.\api\controllers\Api.php	/^    private $input_data_container = array('multi_file' => true, 'file' => true);$/;"	v
+input_ele_type	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                            $input_ele_type = 'input';$/;"	v
+input_ele_type	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                            $input_ele_type = 'select';$/;"	v
+input_ele_type	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                            $input_ele_type = 'textarea';$/;"	v
+input_tag_data	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                    $input_tag_data = array($/;"	v
+input_type	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                        $input_type = 'text';$/;"	v
+is_ajax	.\admin\controllers\Acl.php	/^        $is_ajax = $this->is_ajax_request();$/;"	v
+is_multi	.\api\controllers\Api.php	/^                    $is_multi = false;$/;"	v
+is_multi	.\api\controllers\Api.php	/^                    $is_multi = true;$/;"	v
+is_right	.\admin\controllers\Security.php	/^                $is_right = $this->ADMIN->checkPassword($_POST['op']);$/;"	v
+j	.\admin\templates\adminlte\page\default.tpl.php	/^for ($i = max(1, $data['p'] - $data['half']), $j = min($data['p'] + $data['half'], $data['total_page']); $i <= $j; $i++) {$/;"	v
+j	.\api\controllers\Api.php	/^                    for ($i = 0, $j = count($upload_name); $i < $j; $i++) {$/;"	v
+k	.\admin\controllers\Acl.php	/^            foreach ($a as $k => $v) {$/;"	v
+k	.\admin\controllers\Acl.php	/^        foreach ($u as $k => $ui) {$/;"	v
+k	.\admin\controllers\Admin.php	/^            foreach ($nav_menu_data as $k => &$nav) {$/;"	v
+k	.\admin\templates\adminlte\acl\nav_manager.tpl.php	/^                <?php foreach ($data["un_save_menu"] as $k => $m) : ?>$/;"	v
+k	.\admin\templates\adminlte\security\security_card.tpl.php	/^            <?php foreach ($data as $k => $v) : ?>$/;"	v
+kill	.\admin\controllers\Security.php	/^    function kill()$/;"	f
+layer_data	.\cli\views\GenDocView.php	/^        $layer_data = array();$/;"	v
+li_child_menu	.\admin\templates\adminlte\default.layer.php	/^                function li_child_menu($class, $link, $target, $icon, $name)$/;"	f
+li_class	.\admin\templates\adminlte\default.layer.php	/^                        $li_class = "treeview {$li_class}";$/;"	v
+li_class	.\admin\templates\adminlte\default.layer.php	/^                        $li_class = 'active';$/;"	v
+li_class	.\admin\templates\adminlte\default.layer.php	/^                    $li_class = '';$/;"	v
+li_menu	.\admin\templates\adminlte\default.layer.php	/^                        $li_menu = '';$/;"	v
+li_menu	.\admin\templates\adminlte\default.layer.php	/^                function li_menu($class, $content, $child_menu = '')$/;"	f
+li_menu_content	.\admin\templates\adminlte\default.layer.php	/^                function li_menu_content($link, $target, $icon, $name, $child_node_num)$/;"	f
+li_menu_target	.\admin\templates\adminlte\default.layer.php	/^                                $li_menu_target = '_blank';$/;"	v
+li_menu_target	.\admin\templates\adminlte\default.layer.php	/^                                $li_menu_target = '_self';$/;"	v
+link	.\admin\templates\adminlte\acl\acl_behavior.tpl.php	/^                    foreach ($l['method'] as $link => $m) {$/;"	v
+list_container_id	.\cli\templates\default\segment\api\child_menu.tpl.php	/^$list_container_id = $data['controller'] . '_' . $data['action'];$/;"	v
+list_container_id	.\cli\templates\default\segment\api\test_form.tpl.php	/^$list_container_id = $data['controller'] . '_' . $data['action'];$/;"	v
+login	.\admin\controllers\Main.php	/^    function login()$/;"	f
+login	.\admin\views\MainView.php	/^    function login($data = array())$/;"	f
+logout	.\admin\controllers\Main.php	/^    function logout()$/;"	f
+m	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                    foreach ($methodList as $m => $set) {$/;"	v
+m_link	.\admin\templates\adminlte\default.layer.php	/^                        $m_link = $m['link'];$/;"	v
+m_link	.\admin\templates\adminlte\default.layer.php	/^                        $m_link = $this->url($m['link']);$/;"	v
+makeSecurityImage	.\admin\controllers\Security.php	/^    function makeSecurityImage()$/;"	f
+makeSecurityImage	.\admin\views\SecurityView.php	/^    function makeSecurityImage($notes)$/;"	f
+mc_icon	.\admin\views\AdminView.php	/^                    $mc_icon = &$child_menu_icon_config;$/;"	v
+mc_icon	.\admin\views\AdminView.php	/^                    $mc_icon = &$child_menu_icon_config[$mc['link']];$/;"	v
+menu	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^$menu = &$data['menu'];$/;"	v
+menu	.\admin\views\AclView.php	/^        $menu = &$data['menu_list'];$/;"	v
+menu_data	.\admin\views\AdminView.php	/^        $this->menu_data = $data;$/;"	v
+menu_data	.\admin\views\AdminView.php	/^    private $menu_data;$/;"	v
+menu_icon	.\admin\views\AdminView.php	/^    function setAllMenu($menu, $menu_icon = array())$/;"	v
+menu_icon_config	.\admin\views\AdminView.php	/^            $menu_icon_config = &$menu_icon[$name];$/;"	v
+menu_link	.\admin\templates\adminlte\default.layer.php	/^                                $menu_link = $mu['link'];$/;"	v
+menu_link	.\admin\templates\adminlte\default.layer.php	/^                                $menu_link = $this->url("{$m['link']}:{$mu['link']}");$/;"	v
+menu_list	.\admin\controllers\Acl.php	/^            $menu_list = $this->ACL->getMenuAllDate($id);$/;"	v
+menu_list	.\admin\controllers\Acl.php	/^        $menu_list = $this->ACL->initMenuList();$/;"	v
+menu_set	.\admin\controllers\Acl.php	/^                $menu_set = $_POST ['menu_id'];$/;"	v
+message	.\admin\controllers\Admin.php	/^            $message = $code_config[$code];$/;"	v
+message	.\admin\controllers\Admin.php	/^            $message = '未知错误 ' . $code;$/;"	v
+message	.\api\controllers\Api.php	/^            $message = $notice[$status];$/;"	v
+message	.\api\controllers\Api.php	/^            $message = 'ok';$/;"	v
+method	.\api\controllers\Api.php	/^    function display($data = null, $method = null, $http_response_status = 200)$/;"	v
+methodList	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^$methodList = &$data['methodList'];$/;"	v
+methodList	.\admin\views\AclView.php	/^        $methodList = &$menu['method'];$/;"	v
+methodList	.\cli\controllers\GenDoc.php	/^            $methodList = $rc->getMethods();$/;"	v
+methodRc	.\cli\controllers\GenDoc.php	/^                    $methodRc = new ReflectionMethod($classNameSpace, $action->name);$/;"	v
+name	.\admin\views\AdminView.php	/^        foreach ($menu as $name => &$m) {$/;"	v
+namePrefix	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                        $namePrefix = sprintf("menu[%s][%s]", $menu['id'], $m);$/;"	v
+nav	.\cli\views\GenDocView.php	/^        $nav = $main = '';$/;"	v
+navManager	.\admin\controllers\Acl.php	/^    function navManager()$/;"	f
+navManager	.\admin\views\AclView.php	/^    function navManager($data = array())$/;"	f
+nav_id	.\admin\controllers\Admin.php	/^                $nav_id = $nav['id'];$/;"	v
+nav_menu	.\admin\views\AdminView.php	/^        $this->nav_menu = $nav_data;$/;"	v
+nav_menu	.\admin\views\AdminView.php	/^    private $nav_menu;$/;"	v
+nav_menu_data	.\admin\controllers\Admin.php	/^        $nav_menu_data = $this->ACL->getMenu();$/;"	v
+next_params	.\guestbook\views\MainView.php	/^        $next_params = $params;$/;"	v
+notice	.\admin\views\AdminView.php	/^    function notice($code, $tpl = null)$/;"	f
+notice	.\api\controllers\Api.php	/^            $notice = $this->parseGetFile('config\/notice.config.php');$/;"	v
+notice	.\api\controllers\Api.php	/^        static $notice = null;$/;"	v
+options	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                            $options = explode(' ', trim($options));$/;"	v
+options	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                        $options = '';$/;"	v
+order	.\guestbook\controllers\Main.php	/^            $order = 'id DESC';$/;"	v
+origin_name_ext	.\api\controllers\Api.php	/^        $origin_name_ext = end($origin_name_info);$/;"	v
+origin_name_info	.\api\controllers\Api.php	/^        $origin_name_info = explode('.', $upload_file_name);$/;"	v
+out_put_dir	.\cli\views\GenDocView.php	/^        $out_put_dir = rtrim($data['output_dir'], DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;$/;"	v
+out_put_index_file	.\cli\views\GenDocView.php	/^        $out_put_index_file =  $out_put_dir . 'index.php';$/;"	v
+output_dir	.\cli\controllers\GenDoc.php	/^        $output_dir = $this->params['output'];$/;"	v
+page	.\admin\views\AdminView.php	/^    function page(array $data, $tpl = 'default')$/;"	f
+page	.\guestbook\controllers\Main.php	/^            $page = array($/;"	v
+page	.\guestbook\views\MainView.php	/^    function page($data = array())$/;"	f
+page_content	.\admin\templates\adminlte\page\default.tpl.php	/^$page_content = '';$/;"	v
+params	.\admin\views\AdminView.php	/^            $params = array();$/;"	v
+params	.\cli\controllers\Cli.php	/^            $params = $this->action_annotate['params'];$/;"	v
+params	.\cli\controllers\Cli.php	/^            $params = array();$/;"	v
+params	.\cli\controllers\Cli.php	/^        $this->params = $params;$/;"	v
+parentClassAnnotate	.\cli\controllers\GenDoc.php	/^                $parentClassAnnotate = Annotate::getInstance($this->delegate)->parse($prcAnnotate);$/;"	v
+parentClassAnnotate	.\cli\controllers\GenDoc.php	/^            $parentClassAnnotate = array();$/;"	v
+parent_annotate	.\cli\templates\default\segment\api\case.tpl.php	/^$parent_annotate = &$data['parent_annotate'];$/;"	v
+parent_annotate	.\cli\templates\default\segment\api\main.tpl.php	/^$parent_annotate = &$data['parent_annotate'];$/;"	v
+parent_annotate	.\cli\templates\default\segment\api\nav.tpl.php	/^$parent_annotate = &$data['parent_annotate'];$/;"	v
+pcParents	.\cli\controllers\GenDoc.php	/^            $pcParents = $rc->getParentClass();$/;"	v
+platform	.\api\controllers\Api.php	/^        $this->platform = $this->getInputData('platform');$/;"	v
+platform	.\api\controllers\Api.php	/^    protected $platform;$/;"	v
+prc	.\cli\controllers\GenDoc.php	/^                $prc = new ReflectionClass($pcParentName);$/;"	v
+prcAnnotate	.\cli\controllers\GenDoc.php	/^                $prcAnnotate = $prc->getDocComment();$/;"	v
+pre_params	.\guestbook\views\MainView.php	/^        $pre_params = $params;$/;"	v
+printSecurityCard	.\admin\controllers\Security.php	/^    function printSecurityCard()$/;"	f
+printSecurityCard	.\admin\views\SecurityView.php	/^    function printSecurityCard($data=array())$/;"	f
+printStatus	.\admin\views\SecurityView.php	/^    function printStatus($data = array())$/;"	f
+rc	.\cli\controllers\GenDoc.php	/^            $rc = new ReflectionClass($classNameSpace);$/;"	v
+rcAnnotate	.\cli\controllers\GenDoc.php	/^            $rcAnnotate = $rc->getDocComment();$/;"	v
+refresh	.\admin\controllers\Security.php	/^    function refresh()$/;"	f
+request	.\api\controllers\Api.php	/^            $request = explode(',', $annotate_request);$/;"	v
+request_type	.\api\controllers\Api.php	/^        $request_type = &$this->request_type;$/;"	v
+request_type	.\api\controllers\Api.php	/^    private $request_type = 'post';$/;"	v
+ret	.\admin\controllers\Acl.php	/^                $ret = $this->ACL->saveRoleMenu($_POST['name'], $menu_set);$/;"	v
+ret	.\admin\controllers\Acl.php	/^            $ret = $this->ACL->editRoleMenu($_POST['rid'], $_POST['name'], $_POST['menu_id']);$/;"	v
+ret	.\admin\controllers\Acl.php	/^        $ret = $this->ACL->delRole($rid);$/;"	v
+ret	.\admin\controllers\Security.php	/^        $ret = $this->SEC->killBind($this->u);$/;"	v
+ret	.\admin\controllers\Security.php	/^        $ret = $this->SEC->securityData($this->u);$/;"	v
+ret	.\admin\controllers\Security.php	/^        $ret = $this->SEC->updateCard($this->u);$/;"	v
+ret	.\guestbook\controllers\Main.php	/^            $ret = $GuestBook->add($data);$/;"	v
+rid	.\admin\controllers\Acl.php	/^        $rid = $is_ajax ? (int)$_GET['rid'] : (int)$this->params['rid'];$/;"	v
+rid	.\admin\controllers\Acl.php	/^        $rid = (int)$this->params['rid'];$/;"	v
+roleList	.\admin\controllers\Acl.php	/^    function roleList()$/;"	f
+roleList	.\admin\views\AclView.php	/^    function roleList($data)$/;"	f
+role_id	.\admin\controllers\Admin.php	/^        $role_id = $user_info['rid'];$/;"	v
+role_info	.\admin\controllers\Acl.php	/^        $role_info = $this->ACL->getRoleInfo(array('id' => $rid));$/;"	v
+role_info	.\admin\controllers\Admin.php	/^            $role_info = $this->ACL->getRoleInfo(array('id' => $role_id));$/;"	v
+scanSource	.\cli\controllers\GenDoc.php	/^    private function scanSource($source)$/;"	f
+sele	.\admin\templates\adminlte\acl\behavior.tpl.php	/^    function sele(o) {$/;"	f
+selectAll	.\admin\templates\adminlte\acl\acl_behavior.tpl.php	/^    function selectAll(o) {$/;"	f
+selectOptions	.\cli\templates\default\segment\api\test_form.tpl.php	/^                                            $selectOptions = array();$/;"	v
+server_ip	.\cli\controllers\GenDoc.php	/^                    $server_ip = gethostbyname($host);$/;"	v
+server_ip	.\cli\controllers\GenDoc.php	/^                $server_ip = $_SERVER['SERVER_ADDR'];$/;"	v
+setAllMenu	.\admin\views\AdminView.php	/^    function setAllMenu($menu, $menu_icon = array())$/;"	f
+setMenu	.\admin\views\AdminView.php	/^    function setMenu($data)$/;"	f
+setNavMenu	.\admin\views\AdminView.php	/^    function setNavMenu($nav_data)$/;"	f
+showContent	.\cli\templates\default\segment\api_layer.tpl.php	/^    function showContent(contentID) {$/;"	f
+size	.\api\controllers\Api.php	/^    private function checkUploadImage($upload_file_name, $tmp_file, $size = 3000000)$/;"	v
+source	.\cli\controllers\GenDoc.php	/^        $source = $this->params['source'];$/;"	v
+target	.\admin\templates\adminlte\default.layer.php	/^                        $target = '_blank';$/;"	v
+target	.\admin\templates\adminlte\default.layer.php	/^                        $target = '_self';$/;"	v
+text	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                        $text = '删除';$/;"	v
+text	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                    $text = '-';$/;"	v
+text	.\admin\views\AdminView.php	/^    function text($text, $tpl = null)$/;"	f
+title	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                        $title = '确实要删除吗?';$/;"	v
+title	.\admin\templates\adminlte\acl\menu_manager.tpl.php	/^                                    $title = '删除或修改请编辑控制器类中对应的方法';$/;"	v
+tpl	.\admin\views\AdminView.php	/^            $tpl = '<div style="background: #F0F8FF;padding:10px;">%s<\/div>';$/;"	v
+tpl	.\admin\views\AdminView.php	/^    function notice($code, $tpl = null)$/;"	v
+tpl	.\admin\views\AdminView.php	/^    function page(array $data, $tpl = 'default')$/;"	v
+tpl	.\admin\views\AdminView.php	/^    function text($text, $tpl = null)$/;"	v
+tpl_dir_name	.\admin\controllers\Admin.php	/^        $tpl_dir_name = $this->config->get('sys', 'default_tpl_dir');$/;"	v
+u	.\admin\controllers\Acl.php	/^        $u = $this->ADMIN->getUserList();$/;"	v
+u	.\admin\controllers\Admin.php	/^        $this->u = &$_SESSION['u'];$/;"	v
+u	.\admin\controllers\Admin.php	/^    protected $u;$/;"	v
+uid	.\admin\controllers\Acl.php	/^        $uid = (int)$this->params['uid'];$/;"	v
+uid	.\api\controllers\Api.php	/^    protected $uid = 0;$/;"	v
+un_save_menu	.\admin\controllers\Acl.php	/^        $un_save_menu = array();$/;"	v
+upload_name	.\api\controllers\Api.php	/^                $upload_name = &$_FILES[$key]['name'];$/;"	v
+upload_tmp_name	.\api\controllers\Api.php	/^                $upload_tmp_name = &$_FILES[$key]['tmp_name'];$/;"	v
+user	.\admin\controllers\Acl.php	/^    function user()$/;"	f
+user	.\admin\views\AclView.php	/^    function user($data)$/;"	f
+user_info	.\admin\controllers\Admin.php	/^        $user_info = $this->ADMIN->getAdminInfo(array('name' => $this->u));$/;"	v
+value	.\api\controllers\Api.php	/^                $value = htmlentities(strip_tags(trim($value)), ENT_COMPAT, 'utf-8');$/;"	v
+value	.\api\controllers\Api.php	/^            $value = trim($this->data_container[$key]);$/;"	v
+version	.\api\controllers\Api.php	/^        $this->version = $this->getInputData('version');$/;"	v
+version	.\api\controllers\Api.php	/^    protected $version;$/;"	v
+view	.\api\controllers\Api.php	/^        $this->view = new ApiView();$/;"	v
