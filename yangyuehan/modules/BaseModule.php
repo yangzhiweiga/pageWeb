@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * Created by PhpStorm.
  * User: yangzhiwei
  * Date: 2018/8/25
@@ -41,4 +42,9 @@ class BaseModule extends Module
             }
         }
     }
+    function index()
+    {
+
+    }
+
 }

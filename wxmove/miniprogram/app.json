@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/posts/post",
+    "pages/imooc/imooc"
+  ],
+  "window": {
+    "navigationBarBackgroundColor":"#b3d4db"
+  }
+}

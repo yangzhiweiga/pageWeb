@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/product/product",
+    "pages/theme/theme"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText":"零食商贩",
+    "navigationBarTitleStyle":"#AB956D"
+  }
+}
